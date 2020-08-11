@@ -1,0 +1,81 @@
+body{
+  padding: 1%;
+  margin: 1%;
+}
+header{
+  background: url('../images/eDAAS.jpg') repeat;
+  /*background-size: cover;*/
+  padding: 5px;
+  height: 250px;
+  text-align: center;
+}
+
+nav a{ 
+  display: inline-block;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0,0,100, 0.3);
+  width: 250px;
+  text-align: all;
+  padding: 5px;
+  margin: 5px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 30px;
+}
+#login{
+  text-align: center;
+  font-size: 40px;
+}
+
+#loginas{
+  text-align: center;
+  font-size: 25px;
+}
+nav a:hover{
+  background: #ff3300;
+  color: #000000;
+}
+
+nav a:focus{
+  background: #775566;
+  color: #aabbaa;
+}
+
+nav a:active{
+  border: 2px dotted blue;
+}
+
+.active{
+  background: rbg(255,255,255,0.1);
+  color: red;
+}
+
+img{
+  display: inline;
+  float: none;
+  width: 200px;
+  border: 2px solid red;
+  padding: 2px;
+  height: 80px;
+}
+
+.left{
+  float: left;
+  width: 16%;
+  background-color: #408000;
+  border: 2px;
+}
+.right{
+  border: 2px solid white;
+   padding: 5px;
+   margin-left: 2px;
+   clear: right;
+}
+
+h1{
+  font-size: 80px;
+  color: #99cc00;
+}
+
